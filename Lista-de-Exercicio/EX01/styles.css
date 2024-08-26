@@ -1,0 +1,6 @@
+.horizontal-list {
+    list-style-type: disc;
+    display: flex;
+    gap: 20px;
+    margin: 30px;
+}

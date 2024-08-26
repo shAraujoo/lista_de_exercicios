@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    height: 400px;
+    margin: 0 auto;
+}
+
+.top-bar {
+    background-color: #D04141;
+    height: 50px;
+}
+
+.middle {
+    display: flex;
+    flex: 1;
+}
+
+.left {
+    background-color: #D19292;
+    width: 40%;
+}
+
+.right {
+    background-color: #7C3535;
+    flex: 1;
+}
+
+.bottom-bar {
+    background-color: #A62D2D;
+    height: 50px;
+}

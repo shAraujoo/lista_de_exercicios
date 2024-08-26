@@ -1,0 +1,45 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: white;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px; 
+}
+
+.row1 .circle {
+    margin: 0 10px; 
+}
+
+.row2 .circle {
+    margin: 0 200px; 
+}
+
+.row3 .circle {
+    margin: 0 100px; 
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: lime;
+}
+
+.blue {
+    background-color: blue;
+}
